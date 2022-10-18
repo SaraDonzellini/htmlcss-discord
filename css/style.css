@@ -175,6 +175,22 @@ div.text-down h1{
 div.text-down p{
   padding-top: 1rem;
   color: white;
+  padding-bottom: 3rem;
+}
+
+button.scaricaperwin{
+  border: none;
+  height: 3rem;
+  padding: 0 3rem;
+  border-radius: 30px;
+  background-color: #5865f3;
+  color: white;
+  font-size: large;
+}
+
+button.scaricaperwin:hover{
+  background-color: #7983f5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 div.chillin{
@@ -193,10 +209,10 @@ section.ottieni-platforms{
 
 }
 
-div.platforms{
-  width: 80%;
-  flex-direction: row;
-  flex-wrap: wrap; 
+div.platforms-1,
+div.platforms-2{
+
+  flex-direction: column;
   margin: auto;
   justify-content: center;
 }
