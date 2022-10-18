@@ -151,7 +151,7 @@ section.pres-container{
 
 section.ottieni-discord{
   background-color: #23272a;
-  height: 700px;
+  /* height: 700px; */
   padding-top: 5rem;
 }
 
@@ -201,37 +201,66 @@ div.chillin{
 }
 
 section.ottieni-platforms{
-  background-color: rgb(150, 84, 84);
-  height: 1800px;
+  /* background-color: rgb(150, 84, 84); */
+  /* height: 1900px; */
   padding-top: 5rem;
   width: 1500px;
-  margin: 0 auto;
+  margin: 5rem auto;
 
 }
 
 div.platforms-1,
 div.platforms-2{
-
+  text-align: center;
   flex-direction: column;
   margin: auto;
   justify-content: center;
+  align-items: center;
 }
 
 .ios,
 .linux,
 .android,
 .mac-d{
-  height: 600px;
+  /* height: 600px; */
   width: 500px;
-  border: 2px dashed black;
+  background-color: #f6f6f6;
+  margin: 2rem;
+  border-radius: 30px;
+  /* border: 2px dashed black; */
 }
 
 .beta{
-  height: 200px;
+  /* height: 200px; */
   width: 500px;
-  border: 2px dashed black;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  /* border: 2px dashed black; */
 }
 
+.beta2{
+  height: 200px;
+  width: 500px;
+  border-radius: 30px;
+  /* border: 2px dashed black; */
+}
+
+div.beta button,
+.scarica-but{
+  border: none;
+  background-color: #23272a;
+  color: white;
+  font-size: large;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+}
+
+div.beta button:hover,
+.scarica-but:hover{
+  background-color: #36393f;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 /* middle section main page */
 
