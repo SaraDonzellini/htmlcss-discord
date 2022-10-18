@@ -147,34 +147,66 @@ section.pres-container{
   margin: 0 auto;
 
 }
-/*ottieni discord section */
+/* ottieni discord section */
 
 section.ottieni-discord{
   background-color: #23272a;
-  height: 600px;
+  height: 700px;
   padding-top: 5rem;
 }
 
 div.ottieni-container{
   height: 500px;
   width: 1200px;
-  background-color: aliceblue;
   margin: 0px auto;
   
 }
 
 div.text-down{
   width: 50%;
-  background-color: brown;
 }
 
 div.chillin{
   width: 50%;
-  background-color: aqua;
+  background-image: url("../img/chillin.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+section.ottieni-platforms{
+  background-color: rgb(150, 84, 84);
+  height: 1800px;
+  padding-top: 5rem;
+  width: 1500px;
+  margin: 0 auto;
+
+}
+
+div.platforms{
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  margin: auto;
+  justify-content: center;
+}
+
+.ios,
+.linux,
+.android,
+.mac-d{
+  height: 600px;
+  width: 500px;
+  border: 2px dashed black;
+}
+
+.beta{
+  height: 200px;
+  width: 500px;
+  border: 2px dashed black;
 }
 
 
-/* middle section  */
+/* middle section main page */
 
 section.middle-container{
   height: 40rem;
