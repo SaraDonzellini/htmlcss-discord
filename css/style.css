@@ -166,6 +166,17 @@ div.text-down{
   width: 50%;
 }
 
+div.text-down h1{
+  color: white;
+  font-size: 60px;
+  line-height: 90%;
+}
+
+div.text-down p{
+  padding-top: 1rem;
+  color: white;
+}
+
 div.chillin{
   width: 50%;
   background-image: url("../img/chillin.svg");
@@ -395,9 +406,14 @@ button.register:hover{
 section.wave{
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100px;
+  /* height: 100px; */
   fill: #f6f6f6;
 }
+
+section.wave svg{
+  display: block;
+}
+
 
 section.wave-inverted{
   height: 80px;
