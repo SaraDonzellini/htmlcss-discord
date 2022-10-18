@@ -26,6 +26,13 @@ header{
 
 }
 
+header.header-scarica{
+  height: 5rem;
+  background-color: #23272a;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
 section.container{
   height: 3rem;
   width: 1400px;
@@ -140,6 +147,32 @@ section.pres-container{
   margin: 0 auto;
 
 }
+/*ottieni discord section */
+
+section.ottieni-discord{
+  background-color: #23272a;
+  height: 600px;
+  padding-top: 5rem;
+}
+
+div.ottieni-container{
+  height: 500px;
+  width: 1200px;
+  background-color: aliceblue;
+  margin: 0px auto;
+  
+}
+
+div.text-down{
+  width: 50%;
+  background-color: brown;
+}
+
+div.chillin{
+  width: 50%;
+  background-color: aqua;
+}
+
 
 /* middle section  */
 
