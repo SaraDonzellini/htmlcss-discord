@@ -28,7 +28,7 @@ header{
 
 section.container{
   height: 3rem;
-  width: 900px;
+  width: 1400px;
   margin: auto;
 }
 
@@ -53,6 +53,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 div.login{
   width: 20%;
   text-align: center;
@@ -66,11 +70,13 @@ button.accedi{
   width: 6rem;
   font-weight: bold;
   border-radius: 20px;
+  background-color: white;
 }
 
 button.accedi:hover{
-  color: white;
-  background-color: #23272a;
+  color: #5865f3;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* main section */
@@ -109,8 +115,9 @@ button.mac{
 }
 
 button.mac:hover{
-  color: white;
-  background-color: #23272a;
+  color: #5865f3;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 button.browser{
@@ -119,8 +126,9 @@ button.browser{
 }
 
 button.browser:hover{
-  color: #23272a;
-  background-color: white;
+  color: white;
+  background-color: #36393f;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 section.pres-container{
@@ -136,9 +144,9 @@ section.pres-container{
 /* middle section  */
 
 section.middle-container{
-  height: 35rem;
+  height: 40rem;
   background-color: rgb(255, 255, 255);
-  padding-top: 2.5rem;
+  padding-top: 5rem;
 }
 
 h2{
@@ -221,8 +229,9 @@ button.down-mac{
   }
 
 button.down-mac:hover{
-  color: #92a6e8;
-  background-color: white;
+  color: white;
+  background-color: #7983f5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* footer section  */
@@ -313,8 +322,9 @@ background-color: #92a6e8;
 }
 
 button.register:hover{
-  color: #92a6e8;
-  background-color: white;
+  color: white;
+  background-color: #7983f5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 section.wave{
