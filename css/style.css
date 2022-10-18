@@ -16,6 +16,8 @@ body{
   flex-direction: row-reverse;
 }
 
+/* header section */
+
 header{
   height: 5rem;
   background-color: #255ee9;
@@ -71,10 +73,12 @@ button.accedi:hover{
   background-color: #23272a;
 }
 
+/* main section */
+  /* jumbotron section */
+
 div.presentation{
   height: 25rem;
   width: 600px;
-  /* background-color: #ee82ee; */
   margin: auto;
   color: white;
   text-align: center;
@@ -129,6 +133,8 @@ section.pres-container{
 
 }
 
+/* middle section  */
+
 section.middle-container{
   height: 35rem;
   background-color: rgb(255, 255, 255);
@@ -177,8 +183,10 @@ div.image-roles{
 
 div.text{
   width: 40%;
-  /* background-color: #ffc0cb; */
 }
+
+/* big image section  */
+
 
 section.download-container{
   height: 900px;
@@ -217,6 +225,9 @@ button.down-mac:hover{
   background-color: white;
 }
 
+/* footer section  */
+
+
 footer{
   background-color: #23272a;
   height: 35rem;
@@ -232,7 +243,6 @@ section.foot-container{
 
 div.speak{
   width:40%;
-  /* background-color: #f08080; */
 }
 
 h4{
@@ -308,7 +318,6 @@ button.register:hover{
 }
 
 section.wave{
-  /* background-image: url("../img/wave.svg"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 100px;
@@ -316,10 +325,6 @@ section.wave{
 }
 
 section.wave-inverted{
-  /* background-image: url("../img/wave.svg"); */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
   height: 80px;
-  /* fill: #d3d3d3; */
   background-color: #f6f6f6;
 }
